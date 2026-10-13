@@ -1,0 +1,14 @@
+{
+  "name": "dev-flow",
+  "description": "DevFlow — your dev routine in a few commands: morning check, plan and run the day with your project's own workflows, daily report",
+  "owner": {
+    "name": "thienleeba"
+  },
+  "plugins": [
+    {
+      "name": "dev",
+      "source": "./",
+      "description": "/dev:morning /dev:plan /dev:report"
+    }
+  ]
+}

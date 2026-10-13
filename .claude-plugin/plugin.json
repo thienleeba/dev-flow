@@ -1,0 +1,15 @@
+{
+  "name": "dev",
+  "version": "0.1.0",
+  "description": "DevFlow — your dev routine in a few commands: morning check, plan and run the day with your project's own workflows, daily report",
+  "author": {
+    "name": "thienleeba"
+  },
+  "keywords": [
+    "workflow",
+    "github",
+    "daily-routine",
+    "planning",
+    "standup"
+  ]
+}

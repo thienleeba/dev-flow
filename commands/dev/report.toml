@@ -1,0 +1,6 @@
+description = "DevFlow: daily report — what I did today, what I'll do next, issues that need action or confirmation. Run only when the user invokes it."
+prompt = """
+Activate the `report` skill of the DevFlow extension and follow it exactly, step by step.
+
+Arguments: {{args}}
+"""

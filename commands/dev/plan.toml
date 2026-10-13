@@ -1,0 +1,6 @@
+description = "DevFlow: plan the day — tasks ordered easy and low-risk first, each mapped to this project's own workflow; reply go to run them. Run only when the user invokes it."
+prompt = """
+Activate the `plan` skill of the DevFlow extension and follow it exactly, step by step.
+
+Arguments: {{args}}
+"""

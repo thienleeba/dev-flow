@@ -1,0 +1,6 @@
+description = "DevFlow: morning check — what needs me today: fix, reply, review, verify, decide, start. Run only when the user invokes it."
+prompt = """
+Activate the `morning` skill of the DevFlow extension and follow it exactly, step by step.
+
+Arguments: {{args}}
+"""
