@@ -11,5 +11,6 @@
     "daily-routine",
     "planning",
     "standup"
-  ]
+  ],
+  "license": "MIT"
 }

@@ -26,15 +26,7 @@ For the whole team, install into the repo and commit the result:
 npx github:thienleeba/dev-flow path/to/repo
 ```
 
-Remove with `npx github:thienleeba/dev-flow uninstall`. Requires Node 18+, and access to this repo.
-
-**Nothing happens when you run it?** npm hides git errors. While the repo is private, git must be able to read it:
-
-```bash
-git ls-remote https://github.com/thienleeba/dev-flow.git
-```
-
-If that fails, log git in with an account that has access: `gh auth login`, then `gh auth setup-git`.
+Remove with `npx github:thienleeba/dev-flow uninstall` (or `… uninstall path/to/repo`). Requires Node 18+.
 
 ## Usage
 
@@ -86,3 +78,7 @@ To change something, just say it in the chat. Personal settings are saved to `~/
 ## Contributing
 
 Edit `skills/` or `shared/`, then run `python3 tools/sync.py` to regenerate the per-tool files (Gemini commands, manifests).
+
+## License
+
+[MIT](LICENSE)

@@ -8,6 +8,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 VERSION = json.loads((ROOT / ".claude-plugin/plugin.json").read_text())["version"]
 NAME, DESC = "dev", "DevFlow — your dev routine in a few commands: morning check, plan and run the day with your project's own workflows, daily report"
 AUTHOR = {"name": "thienleeba"}
+LICENSE = "MIT"
 
 
 def front(text):
@@ -29,7 +30,7 @@ def write(rel, content):
 skills = sorted(d.name for d in (ROOT / "skills").iterdir() if (d / "SKILL.md").exists())
 
 # Manifests (Claude's .claude-plugin/ files are the hand-edited originals)
-manifest = {"name": NAME, "version": VERSION, "description": DESC, "author": AUTHOR,
+manifest = {"name": NAME, "version": VERSION, "description": DESC, "author": AUTHOR, "license": LICENSE,
             "keywords": ["workflow", "github", "daily-routine", "planning", "standup"]}
 write("plugin.json", json.dumps(manifest, indent=2) + "\n")                      # Codex + GitHub Copilot
 write(".cursor-plugin/plugin.json", json.dumps(manifest, indent=2) + "\n")       # Cursor
