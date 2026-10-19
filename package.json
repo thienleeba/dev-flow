@@ -2,7 +2,7 @@
   "name": "@thienleeba/dev-flow",
   "version": "0.1.0",
   "description": "DevFlow — your dev routine in a few commands: morning check, plan and run the day with your project's own workflows, daily report",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "private": true,
   "bin": {
     "dev-flow": "npm/cli.js"

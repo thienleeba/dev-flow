@@ -81,4 +81,4 @@ Edit `skills/` or `shared/`, then run `python3 tools/sync.py` to regenerate the 
 
 ## License
 
-[MIT](LICENSE)
+[Apache License 2.0](LICENSE)

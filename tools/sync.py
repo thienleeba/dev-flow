@@ -8,7 +8,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 VERSION = json.loads((ROOT / ".claude-plugin/plugin.json").read_text())["version"]
 NAME, DESC = "dev", "DevFlow — your dev routine in a few commands: morning check, plan and run the day with your project's own workflows, daily report"
 AUTHOR = {"name": "thienleeba"}
-LICENSE = "MIT"
+LICENSE = "Apache-2.0"
 
 
 def front(text):
